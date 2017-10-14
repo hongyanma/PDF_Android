@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+  <View 
+        android:layout_width="300dp"
+        android:layout_height="0.1dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/gray"/>
+    
+    
+    
+    <RelativeLayout 
+        android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:layout_gravity="center_horizontal">
+	    
+        
+        
+        <ImageView 
+            android:src="@drawable/wenjian"
+            android:id="@+id/wenjian"
+            android:layout_width="70dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="40dp"/>
+    
+    
+    <LinearLayout 
+        android:id="@+id/wenben"
+        android:layout_toRightOf="@id/wenjian"
+        android:layout_alignParentRight="true"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    >
+	    
+	    
+	    <RelativeLayout 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        >
+	        
+	        <TextView 
+	            android:text="名称："
+	            android:id="@+id/Fname"
+	            android:layout_width="wrap_content"
+	            android:textColor="@color/white"
+	            android:layout_height="wrap_content"
+	            />
+	        
+	        <TextView 
+	            android:layout_height="wrap_content"
+	            android:layout_width="wrap_content"
+	            android:id="@+id/Name"
+	            android:textColor="@color/white"
+	            android:layout_toRightOf="@id/Fname"
+	            android:text="斯蒂芬"/>
+	    </RelativeLayout>
+	    
+	    
+	    <RelativeLayout 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        >
+	        
+	        <TextView 
+	            android:text="订单截止时间："
+	            android:id="@+id/Ftime"
+	            android:layout_width="wrap_content"
+	            android:textColor="@color/white"
+	            android:layout_height="wrap_content"
+	            />
+	        
+	        <TextView 
+	            android:layout_height="wrap_content"
+	            android:layout_width="wrap_content"
+	             android:textColor="@color/white"
+	            android:id="@+id/Time"
+	            android:layout_toRightOf="@id/Ftime"
+	            android:text="2017-2-2"/>
+	    </RelativeLayout>
+	    
+	    
+	    <RelativeLayout 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        >
+	        
+	        <TextView 
+	            android:text="合作商："
+	            android:id="@+id/Fpeople"
+	            android:layout_width="wrap_content"
+	             android:textColor="@color/white"
+	            android:layout_height="wrap_content"
+	            />
+	        
+	        <TextView 
+	            android:layout_height="wrap_content"
+	            android:layout_width="wrap_content"
+	            android:id="@+id/People"
+	             android:textColor="@color/white"
+	            android:layout_toRightOf="@id/Fpeople"
+	            android:text="宁波商行"/>
+	    </RelativeLayout>
+	    
+	    
+	    <RelativeLayout 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        >
+	        
+	        <TextView 
+	            android:text="订单号："
+	            android:id="@+id/Fnumber"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	             android:textColor="@color/white"
+	            />
+	        
+	        <TextView 
+	            android:layout_height="wrap_content"
+	            android:layout_width="wrap_content"
+	            android:id="@+id/Number"
+	            android:layout_toRightOf="@id/Fnumber"
+	             android:textColor="@color/white"
+	            android:text="123123"/>
+	    </RelativeLayout>
+	    
+	    
+	    
+	    <RelativeLayout 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        >
+	        
+	        <TextView 
+	            android:text="暂定："
+	            android:id="@+id/F"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	             android:textColor="@color/white"
+	            />
+	        
+	        <TextView 
+	            android:layout_height="wrap_content"
+	            android:layout_width="wrap_content"
+	            android:id="@+id/N"
+	            android:textColor="@color/white"
+	            android:layout_toRightOf="@id/F"
+	            android:text="再说"/>
+	    </RelativeLayout>
+	</LinearLayout>
+    
+     
+    
+    </RelativeLayout>
+    
+    
+    
+    <View 
+        android:layout_gravity="center_horizontal"
+        android:layout_width="300dp"
+        android:layout_height="0.1dp"
+        android:background="@color/gray"/>
+    
+
+</LinearLayout>

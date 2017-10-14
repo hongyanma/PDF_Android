@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu">
+        <item>2017-9-12 8:00   Tom</item>
+        <item>2017-9-13 8:00   Tom</item>
+        <item>2017-9-14 8:00   Tom</item>
+        <item>2017-9-15 8:00   Tom</item>
+    </string-array>
+</resources>
